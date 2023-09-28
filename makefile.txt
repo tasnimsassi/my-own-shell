@@ -1,0 +1,8 @@
+ TARGET=myshell #target file name
+ 
+all:
+	gcc myshell.c -L/usr/include -lreadline -o $(TARGET)
+	./$(TARGET)
+ 
+clean:
+	rm $(TARGET) 

@@ -1,0 +1,11 @@
+ls 
+pwd
+echo "Hello, batch file!"
+echo "This is the first command" && echo "This is the second command"
+echo "This is the third command" || echo "This is the fourth command"
+echo "This is the fifth command" ; echo "This is the sixth command"
+ls | wc
+echo isi 2023
+quit
+ls -l | grep "test"
+ls > tasnouma
